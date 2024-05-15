@@ -5,7 +5,7 @@ const Form = () => {
   return (
     <div className="form">
         <form
-        action ="mailto :mayurimane3166@gmail.com" method="GET">
+        action ="mailto :mayurimane3166@gmail.com" method="POST">
         <label>Your Name</label>
         <input type="text"></input>
         <label>Email</label>
