@@ -1,0 +1,46 @@
+.heroimage{
+    width: 100%;
+    background-color:rgba(0,0,0,0.5) ;
+    height: 60vh;
+    position: relative;
+}
+
+.heroimage::before{
+    content: "";
+    /* background-image: url("https://c1.wallpaperflare.com/path/65/35/698/blur-close-up-code-computer-a0631ae401cf22f68b0ffbd4f395e293.jpg"); */
+    background-image: url("https://r4.wallpaperflare.com/wallpaper/676/51/744/face-portrait-digital-art-robot-wallpaper-9930a86d019add8bf6e7a81fa0e1565d.jpg");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroimage h1{
+    font-size: 2.4rem;
+}
+
+.heroimage p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+@media screen and (max-width:640px) {
+    .heroimage h1{
+        font-size: 2rem;
+    }
+}
